@@ -38,7 +38,10 @@ module.exports = {
           /node_modules/,
           /spec/
         ],
-        loader: "eslint-loader"
+        loader: "babel-loader",
+        options: {
+          presets: ['es2015']
+        }
       }
     ]
   }

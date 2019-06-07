@@ -2,7 +2,7 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
-import { DoctorFinder } from './doctor-finer';
+import { DoctorFinder } from './doctor-finder';
 
 $(document).ready(function(){
   $('#searchIssue').click(function(){

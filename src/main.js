@@ -7,13 +7,13 @@ import { DoctorFinder } from './doctor-finder';
 $(document).ready(function(){
   $('.button').click(function(){
       let issue = $('.issue').val();
-      $('.issue').val("");
+      $('.issue').val(" ");
 
       let doctorFinder = new DoctorFinder();
       let promise = doctorFinder.getDoctorByIssue(issue);
       promise.then(function(response) {
           let body = JSON.parse(response);
-          $('#showIssue').text(`${body.meta.data}`)
+          $('#showIssue').text(`${body.data[0].practices[0].name}`);
           
       });
   });

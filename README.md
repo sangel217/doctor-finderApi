@@ -16,3 +16,27 @@ A user can enter a particular issue and return results of doctors in the Seattle
 * The program returns a list of doctors in the Seattle area that specialize in that issue.
     * Input: sore throat
     * Output: list of ear, nose, and throat specialists
+* The program accepts a name from the user and returns a doctor with that name in the Seattle area.
+    * Input: Sarah
+    * Output: Dr. Sarah Brock
+
+## Install
+To clone and run this application, you will need Git and Node.js installed on you computer. From your command line:
+$ git clone https://github.com/sangel217/doctor-finderApi
+$ cd doctor-finderApi
+$ npm install
+$ npm start
+
+## Technologies Used
+JavaScript
+JQuery
+Bootstrap
+CSS
+Webpack
+BetterDoctor API
+
+## Contact
+Please contact Sarah @ sangel217@hotmail.com
+
+## License
+license under MIT, Copyright(c) 2019 Sarah Angel

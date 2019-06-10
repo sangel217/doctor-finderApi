@@ -34,3 +34,8 @@
       background: #1A4668;
   }
 }
+
+table {
+  display: none;
+  width: 100%;
+}

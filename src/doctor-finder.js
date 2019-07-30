@@ -2,7 +2,7 @@ export class DoctorFinder{
     getDoctorByIssue(issue){
         return new Promise(function(resolve, reject){
             let request = new XMLHttpRequest();
-            let url = `https://api.betterdoctor.com/2016-03-01/doctors?query=${issue}&location=47.6062%2C%20-122.3321%2C%2050&user_location=47.6062%2C%20-122.3321&skip=0&limit=10&user_key=${process.env.exports.apiKey}`;
+            let url = `https://api.betterdoctor.com/2016-03-01/doctors?query=${issue}&location=47.6062%2C%20-122.3321%2C%2050&user_location=47.6062%2C%20-122.3321&skip=0&limit=10&user_key=${process.env.apiKey}`;
 
             request.open("GET", url, true);
             request.send();
@@ -20,7 +20,7 @@ export class DoctorFinder{
     getDoctorByName(name){
         return new Promise(function(resolve, reject){
             let request = new XMLHttpRequest();
-            let url = `https://api.betterdoctor.com/2016-03-01/doctors?name=${name}&location=47.6062%2C%20-122.3321%2C%2050&user_location=47.6062%2C%20-122.3321&skip=0&limit=10&user_key=${process.env.exports.apiKey}`;
+            let url = `https://api.betterdoctor.com/2016-03-01/doctors?name=${name}&location=47.6062%2C%20-122.3321%2C%2050&user_location=47.6062%2C%20-122.3321&skip=0&limit=10&user_key=${process.env.apiKey}`;
 
             request.open("GET", url, true);
             request.send();

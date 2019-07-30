@@ -1,4 +1,4 @@
-web: npm run build && webpack-dev-server --open --mode development
+web: npm start
 let port = process.env.PORT;
 if (port == null || port == "") {
   port = 8000;

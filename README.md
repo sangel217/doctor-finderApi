@@ -21,19 +21,19 @@ A user can enter a particular issue and return results of doctors in the Seattle
     * Output: Dr. Sarah Brock
 
 ## Install
-To clone and run this application, you will need Git and Node.js installed on you computer. From your command line:
-$ git clone https://github.com/sangel217/doctor-finderApi
-$ cd doctor-finderApi
-$ npm install
-$ npm start
+To clone and run this application, you will need Git and Node.js installed on you computer. You will also need to register for an API key at https://developer.betterdoctor.com/ and create an local environment file in the project directory declaring **apiKey** variable set to your key. Next, from your command line:
+- $ git clone https://github.com/sangel217/doctor-finderApi
+- $ cd doctor-finderApi
+- $ npm install
+- $ npm start
 
 ## Technologies Used
-JavaScript
-JQuery
-Bootstrap
-CSS
-Webpack
-BetterDoctor API
+- JavaScript
+- JQuery
+- Bootstrap
+- CSS
+- Webpack
+- BetterDoctor API
 
 ## Contact
 Please contact Sarah @ sangel217@hotmail.com
